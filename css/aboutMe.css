@@ -1,0 +1,160 @@
+ .contenedorAboutMe {
+     margin: auto;
+     width: 60%;
+     min-width: 800px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: black;
+ }
+ 
+ .descripciones {
+     background-color: #00828D;
+     display: flex;
+     flex-direction: row;
+     margin-top: 100px;
+     margin-bottom: 50px;
+     font-size: 35px;
+     color: white;
+     /* background: linear-gradient(to left, #8e9eab, #eef2f3); */
+ }
+ 
+ .descripcion {
+     margin-top: auto;
+     margin-bottom: auto;
+     text-align: center;
+ }
+ 
+ .descripcionConLogos {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .iconosAbout {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     height: 30px;
+     width: auto;
+     margin-bottom: 25px;
+ }
+ 
+ .iconosAboutNucba {
+     height: 60px;
+     width: auto;
+     margin-bottom: 25px;
+ }
+ 
+ .logosTec {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width: 100%;
+ }
+ 
+ .imagenSecundaria {
+     float: right;
+     width: 30%;
+     height: auto;
+     border-top-left-radius: 600px;
+ }
+ 
+ .imagenUtn {
+     width: 50%;
+     border-top-right-radius: 500px;
+ }
+ 
+ .imagenPoloTic {
+     width: 50%;
+     border-top-left-radius: 300px;
+ }
+ 
+ .imagenNucba {
+     width: 50%;
+     border-top-right-radius: 200px;
+ }
+ 
+ .colorNucba {
+     background-color: #60726E
+ }
+ 
+ .colorUtn {
+     color: white;
+     background-color: #26546A;
+ }
+ 
+ .colorPoloTic {
+     color: white;
+     background-color: #22B094;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     .contenedorAboutMe {
+         width: 95%;
+         min-width: 0px;
+     }
+     .descripciones {
+         border-radius: 5px;
+         flex-direction: column;
+         margin-top: 50px;
+         margin-bottom: 50px;
+         height: auto;
+         /* font-size: large; */
+     }
+     .descripcion {
+         margin-top: auto;
+         margin-bottom: auto;
+         text-align: center;
+     }
+     .imagenSecundaria {
+         width: 100%;
+         height: auto;
+         border-top-left-radius: 0px;
+         border-radius: 5px;
+     }
+     .imagenUtn {
+         width: 100%;
+         border-top-right-radius: 0px;
+         border-radius: 5px;
+     }
+     .imagenPoloTic {
+         width: 100%;
+         border-top-left-radius: 0px;
+         border-radius: 5px;
+     }
+     .imagenNucba {
+         width: 100%;
+         border-top-right-radius: 0px;
+         border-radius: 5px;
+     }
+     .descripcion {
+         padding-top: 20px;
+         padding-bottom: 10px;
+         font-size: medium;
+     }
+     .iconosAbout {
+         height: 20px;
+         width: auto;
+         margin-bottom: 25px;
+         margin-top: 10px;
+     }
+     .iconosAboutNucba {
+         height: 30px;
+         width: auto;
+         margin-bottom: 25px;
+         margin-top: 10px;
+     }
+     .logosTec {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         width: 100%;
+         margin-top: 10px;
+     }
+     .girarResponsive {
+         flex-direction: column-reverse;
+     }
+ }

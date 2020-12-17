@@ -1,0 +1,355 @@
+body {
+    margin: 0px;
+    background-color: #282c37;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+.cabecera {
+    width: 100%;
+    /* background-color: #566270; */
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 5%;
+    /* margin-top: auto; */
+}
+
+.menuIcono {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 40vh;
+    min-width: 210px;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.menu li {
+    margin: auto;
+    list-style: none;
+}
+
+
+/* #886be7; */
+
+
+/* #2b90d9 */
+
+.botonNav {
+    border: #3acffa solid 3px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px #707070 solid; */
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: large;
+    /* box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.botonNav:hover {
+    background-color: #3acffa;
+}
+
+.personales {
+    background-image: url("assets/fondo.jpg");
+    background-attachment: fixed;
+}
+
+.grillaPersonales {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.presentacion {
+    width: 60%;
+}
+
+.cuadroContactos {
+    background-color: #566270;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    min-width: 350px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.logosRedes {
+    height: 50%;
+    width: auto;
+}
+
+.imagenesRedes {
+    height: 100%;
+    width: auto;
+}
+
+.divisionVertical {
+    color: rgb(243, 241, 241);
+    height: 75%;
+    align-self: center;
+}
+
+.foto {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenPrincipal {
+    height: auto;
+    width: 50vh;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tituloProyectos {
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.pieDePagina {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #2b90d9;
+    height: 50px;
+    bottom: 0;
+}
+
+.contactoFooterEmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoFooterRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redesFooter {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* popUp */
+
+.popUpContacto {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    background-color: rgb(57, 59, 59, 0.9);
+    height: 100%;
+    transition: ease-in;
+    z-index: 8;
+}
+
+.contenedorContacto {
+    position: absolute;
+    background-color: #2f90d6;
+    width: 500px;
+    height: 650px;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerrar {
+    top: 10px;
+    margin-left: 85%;
+    margin-top: 0%;
+    position: absolute;
+}
+
+.closeIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.contenedorContacto p {
+    text-align: center;
+}
+
+.whatsappContact {
+    height: 60px;
+    width: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .grillaPersonales {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .divisionVertical {
+        transform: rotateX(90deg);
+    }
+    .contactoFooterRedes {
+        flex-direction: column;
+    }
+    .cuadroContactos {
+        background-color: #566270;
+        width: 300px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 400px;
+        min-width: 0px;
+    }
+    .logosRedes {
+        margin: auto;
+        height: auto;
+        width: 50%;
+    }
+    .imagenesRedes {
+        height: auto;
+        width: 100%;
+    }
+    .contacto {
+        height: auto;
+    }
+    .tituloProyectos {
+        margin-bottom: 10px;
+    }
+    .pieDePagina {
+        height: 100px;
+    }
+    .personales {
+        padding-top: 20px;
+    }
+    /* cabecera */
+    .cabecera {
+        width: 100%;
+        background-color: #566270;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 3;
+    }
+    .profile {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-left: 0px;
+        position: absolute;
+        right: 5px;
+        /* margin-top: auto; */
+    }
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 24px;
+        left: 0px;
+        padding: 0px;
+        display: none;
+        z-index: 3;
+        transition: transform 5s;
+        transform-style: flat;
+    }
+    .contenedorContacto {
+        width: 300px;
+        height: 450px;
+        font-size: large;
+    }
+    .menu li {
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+        background-color: #2b90d9;
+    }
+    .menuIcono {
+        position: absolute;
+        display: block;
+        width: 35px;
+        height: 35px;
+    }
+    .botonNav {
+        z-index: 3;
+        background: linear-gradient(to left, #00b4db, #0083b0);
+        width: 100%;
+        border-radius: 0px;
+        text-decoration: none;
+        height: 40px;
+        margin: 0px;
+        padding: 0px;
+        border: #3acffa solid 0px;
+        /* border-left: white 1px solid; */
+        /* border-right: white 1px solid; */
+    }
+    .menuAbajo {
+        border-top: 1px solid white;
+    }
+}
+
+
+/* 
+@media only screen and (max-width: 600px)and (min-width :1100px) {
+    .divisionVertical {
+        visibility: hidden;
+    }
+} */
