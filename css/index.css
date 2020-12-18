@@ -263,6 +263,11 @@ body {
         height: 400px;
         min-width: 0px;
     }
+    .imagenPrincipal {
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
     .logosRedes {
         margin: auto;
         height: auto;
