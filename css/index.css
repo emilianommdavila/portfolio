@@ -95,12 +95,12 @@ body {
 .cuadroContactos {
     background-color: #566270;
     width: 60%;
+    min-width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    min-width: 350px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -234,7 +234,15 @@ body {
     width: 60px;
 }
 
-@media only screen and (max-width: 600px) {
+
+/* @media only screen and (max-width: 1300px) and (min-width:600px) {
+    .contenedorAboutMe {
+        width: 60%;
+        min-width: 0px;
+    }
+} */
+
+@media only screen and (max-width: 950px) {
     .grillaPersonales {
         margin-top: 45px;
         display: flex;
