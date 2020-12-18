@@ -1,6 +1,6 @@
 const hola = document.querySelector("#card");
 const contacto = document.querySelector("#contacto");
-// const contactoPopUp = document.querySelector("#contactoPopUp");
+const contactoPopUp = document.querySelector("#contactoPopUp");
 const cerrar = document.querySelector("#cerrarContacto");
 
 const contact = () => {
