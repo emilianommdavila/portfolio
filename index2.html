@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/refactor.css">
+</head>
+
+<body>
+    <header class="cabecera">
+        <img src="assets/iconos/menu.png" alt="" id="botonIcono" class="menuIcono">
+        <a class="profile" href="index.html"><img src="assets/perfil1.jpeg" alt="" class="profile"></a>
+        <ul class="menu" id="menuDesplegable">
+            <li><a id="aboutMe" class="botonNav" href="aboutMe.html">Sobre Mi</a></li>
+            <li> <a class="botonNav menuAbajo" id="contacto" href=""> Contacto </a></li>
+        </ul>
+    </header>
+    <div class="popUpContacto" id="contactoPopUp">
+        <div class="contenedorContacto">
+            <a class="cerrar" id="cerrarContacto" href=""><img class="closeIcon" src="assets/iconos/close.png" alt=""></a>
+            <h2>Contacto </h2>
+            <p>Mi email: <br> <br> emilianommdavila@gmail.com</p>
+            <p>Escribime a Whatsapp:</p>
+            <a href="https://wa.link/kqje0s"><img class="whatsappContact" src="assets/iconos/whatsapp.png" alt=""></a>
+            <p>Escribime a Telegram:</p>
+            <a href="https://t.me/emilianommdavila"><img class="whatsappContact" src="assets/iconos/telegram.png" alt=""></a>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="contenedorPersonales">
+            <div class="personales">
+                <div class="imagenPrincipal"><img class="imagenPrincipal" src="assets/principal.png" alt=""></div>
+                <div class="contenidoPrincipal">
+                    <h1>Hola, Soy Emiliano</h1>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <div class="botonera">
+                        <a href="" class="botonPrincipal">Sobre mi</a>
+                        <a href="" class="botonPrincipal">Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="proyectos">
+            <h2 class="tituloProyectos">Mis Proyectos</h2>
+            <div class="contenedorCards">
+                <div class="card">
+                    <div class="cardContenido">
+                        <div class="cardCara cardCara--frente instagram">
+                            <h2>Instagram</h2>
+                            <img class="imagenProyecto" src="assets/proyectos/instagram.png" alt="">
+                        </div>
+                        <div class="cardCara cardCara--atras instagram">
+                            <h2>Instagram</h2>
+                            <p>Proyecto del Modulo de programacion web de NUCBA, el mismo consiste en realizar un clon de instagram (solo front) y agregarle algunas funcionalidades con Javascript Vanilla (solo Mobile)</p>
+                            <a class="botonProyecto " href="https://clone-ig-para-vercel.vercel.app/">Visita la página</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContenido">
+                        <div class="cardCara cardCara--frente marula">
+                            <h2>Marula</h2>
+                            <img class="imagenProyecto" src="assets/proyectos/marula.png" alt="">
+                        </div>
+                        <div class="cardCara cardCara--atras marula">
+                            <h2>Marula</h2>
+                            <p>Proyecto hecho solamente con HTML y CSS, tiene la finalidad de servir como catalogo para el emprendimiento de Maurla Mendoza</p>
+                            <a class="botonProyecto" href="https://prueba-marula.vercel.app/">Visita la página</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContenido">
+                        <div class="cardCara cardCara--frente festival">
+                            <h2>Festival</h2>
+                            <img class="imagenProyecto" src="assets/proyectos/festival.png" alt="">
+                        </div>
+                        <div class="cardCara cardCara--atras festival">
+                            <h2>Festival</h2>
+                            <p>Proyecto Final del modulo de Diseño Web de NUCBA, el mismo consiste en un sitio de un festival hecho solamente en HTML y CSS</p>
+                            <a class="botonProyecto" href="https://festival-ebon.vercel.app/">Visita la página</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContenido">
+                        <div class="cardCara cardCara--frente findRock">
+                            <h2>FindRock</h2>
+                            <img class="imagenProyecto" src="assets/proyectos/findrock.png" alt="">
+                        </div>
+                        <div class="cardCara cardCara--atras findRock">
+                            <h2>Festival</h2>
+                            <p>Proyecto realizado con React consumiendo desde la API de last FM, sirve para buscar artistas similares</p>
+                            <a class="botonProyecto" href="https://findrock.vercel.app/">Visita la página</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="pieDePagina">
+        <div class="contactoFooterRedes">
+            <div class="contactoFooterEmail">Mi email: emilianommdavila@gmail.com</div>
+            <a href="https://wa.link/kqje0s" class="redesFooter">Whatsapp: 261-2538083</a>
+            <a href="https://www.instagram.com/emilianommdavila/" class="redesFooter">Instagram: @emilianommdavila</a>
+        </div>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+<script src="js/card.js"></script>
+<script src="js/menu.js"></script>
+
+</html>

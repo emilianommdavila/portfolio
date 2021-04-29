@@ -1,0 +1,61 @@
+.contenidoPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+}
+
+@font-face {
+    font-family: gravatica;
+    src: url("../assets/Gravitica.otf");
+}
+
+.imagenPrincipal {
+    margin: auto;
+}
+
+.personales {
+    font-family: gravatica;
+    color: #28d8f0;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+
+.contenedorPersonales {
+    background-color: #252526;
+    height: 70vh;
+    display: flex;
+}
+
+.botonera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.botonPrincipal {
+    background-color: none;
+    margin: auto;
+    border: 1px white solid;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.botonPrincipal:hover {
+    background-color: white;
+    color: #252526;
+}
